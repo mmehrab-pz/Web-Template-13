@@ -1,0 +1,818 @@
+//  //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (max-width:576px) {
+
+    // ---------------------------------------------header---------------------------------------
+    // -------------------------------header content-------------------------------
+
+    #header-content-back {
+        right: -32%;
+    }
+
+
+    #header-content-title {
+        padding-left: 0%;
+
+        >h3 {
+            font-size: 22px;
+            text-align: center;
+        }
+
+        >h1 {
+            font-size: 45px;
+            text-align: center;
+        }
+
+        >p {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        #header-content-title-btn {
+            margin: 50px auto 0 auto;
+        }
+    }
+
+    // ---------------------------------------------main---------------------------------------
+    // -------------------------------just-------------------------------
+
+    #just-title {
+        width: 100%;
+        margin-left: 0%;
+
+        >h3 {
+            text-align: center;
+        }
+
+        >p {
+            text-align: center;
+        }
+
+        >figure {
+            justify-content: center;
+        }
+    }
+
+    #just-cards {
+        width: 100%;
+        margin-left: 0%;
+        padding: 5%;
+    }
+
+    .just-card {
+        justify-content: center;
+    }
+
+    // -------------------------------feature-------------------------------
+
+    #feature-cards {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    // -------------------------------meet-------------------------------
+
+    #meet-img {
+        padding: 100px 0 0px 0px;
+    }
+
+    #meet-title {
+        align-items: center;
+        padding: 100px 0 30px 00px;
+
+        >h3 {
+            text-align: center;
+        }
+
+        >p {
+            text-align: center;
+            width: 100%;
+        }
+
+    }
+
+    #meet-title-btn {
+        margin-left: 0%;
+    }
+
+    // -------------------------------product-------------------------------
+    #product-cards {
+        width: 100%;
+    }
+
+    // -------------------------------news-------------------------------
+
+    #news-cards {
+        width: 100%;
+    }
+
+    // ---------------------------------------------footer---------------------------------------
+    footer {
+        width: 100%;
+        min-height: 550px;
+        background: url(../../img/home1/img46.jpg) center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >span {
+            >div {
+                justify-content: center;
+            }
+        }
+    }
+
+    #newsletter {
+        width: 95%;
+    }
+
+    #newsletter-form {
+        transform: scale(.7);
+    }
+
+    #footer-content {
+        padding: 100px 0;
+
+        >div {
+            margin-bottom: 20px;
+        }
+    }
+
+
+    #footer-content-product,
+    #footer-content-help {
+        justify-content: flex-start;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:576px) {
+    // ---------------------------------------------header---------------------------------------
+    // -------------------------------header content-------------------------------
+
+    #header-content-back {
+        right: -22%;
+    }
+
+
+    #header-content-title {
+        padding-left: 0%;
+
+        >h3 {
+            font-size: 22px;
+            text-align: center;
+        }
+
+        >h1 {
+            font-size: 65px;
+            text-align: center;
+        }
+
+        >p {
+            font-size: 16px;
+            text-align: center;
+        }
+
+        #header-content-title-btn {
+            margin: 50px auto 0 auto;
+        }
+    }
+
+    // ---------------------------------------------main---------------------------------------
+    // -------------------------------just-------------------------------
+
+    #just-title {
+        width: 100%;
+        margin-left: 0%;
+
+        >h3 {
+            text-align: center;
+        }
+
+        >p {
+            text-align: center;
+        }
+
+        >figure {
+            justify-content: center;
+        }
+    }
+
+    #just-cards {
+        width: 100%;
+        margin-left: 0%;
+        padding: 5%;
+    }
+
+    .just-card {
+        justify-content: center;
+    }
+
+    // -------------------------------feature-------------------------------
+
+    #feature-cards {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    // -------------------------------meet-------------------------------
+
+    #meet-img {
+        padding: 100px 0 0px 0px;
+    }
+
+    #meet-title {
+        align-items: center;
+        padding: 50px 0 30px 00px;
+
+        >h3 {
+            text-align: center;
+        }
+
+        >p {
+            text-align: center;
+        }
+
+    }
+
+    #meet-title-btn {
+        margin-left: 0%;
+    }
+
+    // -------------------------------product-------------------------------
+    #product-cards {
+        width: 100%;
+    }
+
+    // -------------------------------news-------------------------------
+
+    #news-cards {
+        width: 100%;
+    }
+
+    // ---------------------------------------------footer---------------------------------------
+    footer {
+        width: 100%;
+        min-height: 550px;
+        background: url(../../img/home1/img46.jpg) center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >span {
+            >div {
+                justify-content: center;
+            }
+        }
+    }
+
+    #newsletter {
+        width: 95%;
+    }
+
+    #newsletter-form {
+        transform: scale(.7);
+    }
+
+    #footer-content {
+        padding: 150px 0;
+
+        >div {
+            margin-bottom: 20px;
+        }
+    }
+
+
+    #footer-content-product,
+    #footer-content-help {
+        justify-content: flex-start;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:768px) {
+
+    // ---------------------------------------------footer---------------------------------------
+    footer {
+        width: 100%;
+        min-height: 550px;
+        background: url(../../img/home1/img46.jpg) center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >span {
+            >div {
+                width: 80%;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    #newsletter {
+        width: 95%;
+    }
+
+    #newsletter-form {
+        transform: scale(.9);
+    }
+
+    #footer-content {
+        padding: 150px 0;
+
+        >div {
+            margin-bottom: 20px;
+        }
+    }
+
+
+    #footer-content-product {
+        justify-content: center;
+    }
+
+    #footer-content-help {
+        justify-content: start;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:992px) {
+    // ---------------------------------------------header---------------------------------------
+    // -------------------------------header content-------------------------------
+
+    #header-content-back {
+        right: 0%;
+    }
+
+
+    #header-content-title {
+        padding-left: 2%;
+
+        >h3 {
+            font-size: 22px;
+            text-align: start;
+        }
+
+        >h1 {
+            font-size: 65px;
+            text-align: start;
+        }
+
+        >p {
+            font-size: 16px;
+            text-align: start;
+        }
+
+        #header-content-title-btn {
+            margin: 50px 0 0 3%;
+        }
+    }
+
+    #header-content-img {
+        >figure {
+            bottom: -15%;
+        }
+    }
+
+    // ---------------------------------------------main---------------------------------------
+    // -------------------------------feature-------------------------------
+
+    #feature-cards {
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    // -------------------------------meet-------------------------------
+
+    #meet-img {
+        padding: 0px 0 0px 0px;
+    }
+
+    #meet-title {
+        align-items: start;
+        padding: 0px 0 30px 60px;
+
+        >h3 {
+            text-align: start;
+        }
+
+        >p {
+            text-align: start;
+            width: 90%;
+        }
+
+    }
+
+    #meet-title-btn {
+        margin-left: 0%;
+    }
+
+    // -------------------------------product-------------------------------
+    #product-cards {
+        width: 70%;
+    }
+
+    // -------------------------------news-------------------------------
+
+    #news-cards {
+        width: 90%;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:1200px) {
+    // ---------------------------------------------main---------------------------------------
+    // -------------------------------just-------------------------------
+
+    #just-title {
+        width: 50%;
+        margin-left: 10%;
+
+        >h3 {
+            text-align: start;
+        }
+
+        >p {
+            text-align: start;
+        }
+
+        >figure {
+            justify-content: start;
+        }
+    }
+
+    #just-cards {
+        width: 70%;
+        margin-left: 10%;
+        padding: 0%;
+    }
+
+    .just-card {
+        justify-content: start;
+    }
+
+    #just-chart-details {
+        left: 200px;
+    }
+
+    // -------------------------------product-------------------------------
+    #product-cards {
+        width: 100%;
+    }
+
+    // -------------------------------news-------------------------------
+
+    #news-cards {
+        width: 100%;
+    }
+
+    // ---------------------------------------------footer---------------------------------------
+    footer {
+        width: 100%;
+        min-height: 550px;
+        background: url(../../img/home1/img46.jpg) center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >span {
+            >div {
+                width: 90%;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    #newsletter {
+        width: 90%;
+    }
+
+    #newsletter-form {
+        transform: scale(.9);
+    }
+
+    #footer-content {
+        width: 90%;
+        padding: 150px 0;
+
+        >div {
+            margin-bottom: 20px;
+        }
+    }
+
+
+    #footer-content-product,
+    #footer-content-help {
+        justify-content: center;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:1400px) {
+    // ---------------------------------------------header---------------------------------------
+    // -------------------------------header content-------------------------------
+
+    #header-content-back {
+        right: 0%;
+    }
+
+
+    #header-content-title {
+        padding-left: 2%;
+
+        >h3 {
+            font-size: 22px;
+            text-align: start;
+        }
+
+        >h1 {
+            font-size: 65px;
+            text-align: start;
+        }
+
+        >p {
+            font-size: 16px;
+            text-align: start;
+        }
+
+        #header-content-title-btn {
+            margin: 50px 0 0 3%;
+        }
+    }
+
+    #header-content-img {
+        >figure {
+            bottom: -15%;
+
+            &:nth-of-type(2) {
+                right: -15%;
+            }
+        }
+    }
+
+    // -------------------------------feature-------------------------------
+
+    #feature-cards {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    // -------------------------------meet-------------------------------
+
+    #meet-img {
+        padding: 0px 0 0px 0px;
+    }
+
+    #meet-title {
+        align-items: start;
+        padding: 0px 0 30px 60px;
+
+        >h3 {
+            text-align: start;
+        }
+
+        >p {
+            text-align: start;
+            width: 80%;
+        }
+
+    }
+
+    #meet-title-btn {
+        margin-left: 0%;
+    }
+
+    // ---------------------------------------------footer---------------------------------------
+    footer {
+        width: 100%;
+        min-height: 550px;
+        background: url(../../img/home1/img46.jpg) center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >span {
+            >div {
+                width: 70%;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    #footer-left-fire {
+        bottom: 65px;
+        right: 5px;
+    }
+
+    #footer-right-fire {
+        bottom: 65px;
+        left: 5px;
+    }
+
+    #newsletter {
+        width: 70%;
+    }
+
+    #newsletter-form {
+        transform: scale(.9);
+    }
+
+    #footer-content {
+        width: 70%;
+        padding: 100px 0;
+
+        >div {
+            margin-bottom: 0px;
+        }
+    }
+
+
+    #footer-content-product,
+    #footer-content-help {
+        justify-content: center;
+    }
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// 
+@media screen and (min-width:1600px) {
+    // ---------------------------------------------header---------------------------------------
+    // -------------------------------header content-------------------------------
+
+    #header-content-back {
+        right: 10%;
+    }
+
+
+    #header-content-title {
+        padding-left: 2%;
+
+        >h3 {
+            font-size: 22px;
+            text-align: start;
+        }
+
+        >h1 {
+            font-size: 90px;
+            text-align: start;
+        }
+
+        >p {
+            font-size: 16px;
+            text-align: start;
+        }
+
+        #header-content-title-btn {
+            margin: 50px 0 0 2%;
+        }
+    }
+
+    #header-content-img {
+        >figure {
+            bottom: 0%;
+
+            &:nth-of-type(2) {
+                right: -0%;
+            }
+        }
+    }
+
+    // ---------------------------------------------main---------------------------------------
+    // -------------------------------just-------------------------------
+
+    #just-title {
+        width: 50%;
+        margin-left: 35%;
+
+        >h3 {
+            text-align: start;
+        }
+
+        >p {
+            text-align: start;
+        }
+
+        >figure {
+            justify-content: start;
+        }
+    }
+
+    #just-cards {
+        width: 50%;
+        margin-left: 35%;
+        padding: 0%;
+    }
+
+    .just-card {
+        justify-content: start;
+    }
+
+    #just-chart-details {
+        left: 0px;
+    }
+
+    // -------------------------------feature-------------------------------
+
+    #feature-cards {
+        margin: 0 auto;
+        width: 65%;
+    }
+
+    // -------------------------------meet-------------------------------
+
+    #meet-img {
+        padding: 0px 0 0px 200px;
+    }
+
+    #meet-title {
+        align-items: start;
+        padding: 0px 0 30px 60px;
+
+        >h3 {
+            text-align: start;
+        }
+
+        >p {
+            text-align: start;
+            width: 55%;
+        }
+
+    }
+
+    #meet-title-btn {
+        margin-left: 0%;
+    }
+
+    // -------------------------------product-------------------------------
+    #product-cards {
+        width: 70%;
+    }
+
+    // -------------------------------news-------------------------------
+
+    #news-cards {
+        width: 70%;
+    }
+
+    // ---------------------------------------------footer---------------------------------------
+    footer {
+        width: 100%;
+        min-height: 550px;
+        background: url(../../img/home1/img46.jpg) center;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        >span {
+            >div {
+                width: 70%;
+                justify-content: space-between;
+            }
+        }
+    }
+
+    #footer-left-fire {
+        position: absolute;
+        bottom: 65px;
+        right: 70px;
+    }
+
+    #footer-right-fire {
+        position: absolute;
+        bottom: 65px;
+        left: 70px;
+    }
+
+    #newsletter {
+        width: 70%;
+    }
+
+    #newsletter-form {
+        transform: scale(1);
+    }
+
+    #footer-content {
+        width: 70%;
+        padding: 50px 0;
+
+        >div {
+            margin-bottom: 0px;
+        }
+    }
+
+
+    #footer-content-product,
+    #footer-content-help {
+        justify-content: center;
+    }
+}
